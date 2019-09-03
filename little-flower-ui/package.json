@@ -1,6 +1,6 @@
 {
-  "name": "jvm-monitor",
-  "version": "0.1.0",
+  "name": "little-flower-ui",
+  "version": "1.0",
   "private": true,
   "dependencies": {
     "antd": "^3.20.3",
