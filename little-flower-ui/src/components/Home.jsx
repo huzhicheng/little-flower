@@ -1,18 +1,10 @@
 import React, { Component } from "react";
 import {
-  G2,
   Chart,
   Geom,
   Axis,
   Tooltip,
-  Coord,
-  Label,
   Legend,
-  View,
-  Guide,
-  Shape,
-  Facet,
-  Util
 } from "bizcharts";
 import {
   Tabs,
@@ -22,7 +14,6 @@ import {
   List,
   Typography,
   Icon,
-  Card,
   Tag
 } from "antd";
 import { observer, inject } from "mobx-react";

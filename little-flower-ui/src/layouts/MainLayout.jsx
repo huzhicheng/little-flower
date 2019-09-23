@@ -155,6 +155,9 @@ class MainLayout extends Component {
                   <Icon type="apartment" />
                   <span>MBeans</span>
                 </Menu.Item>
+                <Menu.Item key="about">
+                  <span>关于</span>
+                </Menu.Item>
               </Menu>
             </div>
           )}
@@ -189,6 +192,9 @@ class MainLayout extends Component {
                 <Menu.Item key="domain">
                   <Icon type="apartment" />
                   <span>MBeans</span>
+                </Menu.Item>
+                <Menu.Item key="about">
+                  <span>关于</span>
                 </Menu.Item>
               </Menu>
             </Sider>

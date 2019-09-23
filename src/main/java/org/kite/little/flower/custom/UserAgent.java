@@ -27,11 +27,11 @@ public class UserAgent {
         server.registerMBean(new User(), userName);
         //Thread.sleep(60 * 60 * 1000);
 
-        ObjectName adapterName = new ObjectName("FengZheng:name=htmladapter,port=8888");
-        HtmlAdaptorServer adapter = new HtmlAdaptorServer();
-        adapter.setPort(8888);
-        server.registerMBean(adapter, adapterName);
-        adapter.start();
+//        ObjectName adapterName = new ObjectName("FengZheng:name=htmladapter,port=8888");
+//        HtmlAdaptorServer adapter = new HtmlAdaptorServer();
+//        adapter.setPort(8888);
+//        server.registerMBean(adapter, adapterName);
+//        adapter.start();
 
         try {
             //这个步骤很重要，注册一个端口，绑定url后用于客户端通过rmi方式连接JMXConnectorServer
