@@ -12,7 +12,7 @@
     - 实时 CPU 使用率曲线图、实时 Heap 、MetaSpace 使用量曲线图、实时类加载量曲线图、实时线程数曲线图
     - 垃圾收集器及垃圾收集次数
 
-  ![](https://hexo.moonkite.cn/blog/20231018174102.png)
+  ![](https://github.com/huzhicheng/little-flower/raw/master/Jvm-Monitor.png?raw=true)
   
 ### 技术架构
 
