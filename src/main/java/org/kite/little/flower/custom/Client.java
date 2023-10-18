@@ -64,14 +64,6 @@ public class Client {
                         continue;
                     }
                 }
-
-//                for (MBeanOperationInfo oper : mBeanInfo.getOperations()) {
-//                    System.out.println(oper.getName() + ":" + oper.getDescription());
-//                }
-//                System.out.println("[Notifications]");
-//                for (MBeanNotificationInfo notice : mBeanInfo.getNotifications()) {
-//                    System.out.println(notice.getName() + ":" + notice.getDescription());
-//                }
             }
         }
     }
@@ -106,10 +98,6 @@ public class Client {
                         }
                     }
                 } else {
-//                    if (entry.getKey().equals("memoryUsageAfterGc")) {
-//                        Object o = entry.getValue();
-//                        System.out.println(o);
-//                    }
                     System.out.println("            ---" + entry.getKey() + "=" + entry.getValue());
                 }
             }

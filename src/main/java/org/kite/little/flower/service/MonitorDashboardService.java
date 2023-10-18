@@ -77,7 +77,7 @@ public class MonitorDashboardService {
             String name = beanAttributeInfo.getName();
             String firstCharLowerCase = name.substring(0, 1).toLowerCase();
             name = name.replaceFirst("[A-Z]{1}", firstCharLowerCase);
-            systemInfo = EntryUtil.setValue(systemInfo, name, beanAttributeInfo.getValue().getData());
+            EntryUtil.setValue(systemInfo, name, beanAttributeInfo.getValue().getData());
         }
         return systemInfo;
     }
@@ -215,6 +215,7 @@ public class MonitorDashboardService {
        List<GarbageInfo> garbageInfos = new ArrayList<>();
         JmxConnectorInstance commonConfig = JmxConnectorInstance.INSTANCE;
         JMXConnector connector = commonConfig.getJmxConnector();
+
         ObjectName queryObjectName = new ObjectName("java.lang:name=*,type=GarbageCollector");
         MBeanServerConnection msc = connector.getMBeanServerConnection();
         Set<ObjectName> objectNames = msc.queryNames(queryObjectName, null);

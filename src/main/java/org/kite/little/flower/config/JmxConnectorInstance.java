@@ -16,6 +16,9 @@ import javax.management.remote.JMXServiceURL;
 @Slf4j
 public enum JmxConnectorInstance {
 
+    /**
+     * 单例模式
+     */
     INSTANCE;
 
     private static JMXConnector jmxConnector;
